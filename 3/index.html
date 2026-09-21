@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solar System Explorer - Project 2</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
+    <body>
+        <header>
+            <h1>Solar System Explorer</h1>
+            <p class="subtitle">3054 Web Programming - Project 2</p>
+        </header>
+
+        <main>
+            <section id="topic-description">
+                <h2>Topic Description</h2>
+                <p>
+                    The solar system is a collection of planets, their moons, and other objects that orbit the Sun. Even though there is widespread interest in space, we still only know very little about what seems like an endless nothing. Some planets are rocky while others are gassy, what makes moons different from planets, and what makes dwarf planets different from regular planets. This will do its best to address those questions by building a web application that will let the users explore the solar system through specific paths. With this application, I will aim to create an easily browsable tool that lets the user select a category with specific information and be shown accurate information and images.
+                </p>
+                <p>
+                    NASA’s Solar System Exploration website is the most detailed and professional but is built more as a reference or a quick search tool, not a guided web application. Their website assumes the user already knows what they are looking for, rather than teaching them what they don’t already know. Many other sites similar to this like to oversimplify their websites and don't let the user learn as much because most of the focus is on the aesthetics.
+                </p>
+            </section>
+
+            <section id="app-description">
+                <h2>Application Description</h2>
+                <h3>Home Page</h3>
+                <p>
+                    The landing page will introduce the Solar System Explorer for new users. It will feature a title banner with a brief welcoming message with more explaining the purpose of the site and an image of the solar system to help the user visualize what they will be learning about. 
+                </p>
+
+                <h3>Exploration Page</h3>
+                <p>
+                    This is the page that will implement the double step sequence. The first is where the user will select between 4 planetary categories: Inner Planets, Outer Planets, Dwarf Planets, and Moons. The first choice will determine the second step options and the second step options will give the user different outputs. For example, the Inner Planets would be Mercury, Venus, Earth, and Mars, but if you selected Moons, you would see Earth’s Moon, Titan, Io, and Europa. Every one of the 16 total choices will have a similar looking information display but with the proper information for your selections. 
+                </p>
+
+                <ol class="choice-tree">
+                    <li>Inner Planets
+                        <ol>
+                            <li>Mercury</li>
+                            <li>Venus</li>
+                            <li>Earth</li>
+                            <li>Mars</li>
+                        </ol>
+                    </li>
+                    
+                    <li>Outer Planets
+                        <ol>
+                            <li>Jupiter</li>
+                            <li>Saturn</li>
+                            <li>Uranus</li>
+                            <li>Neptune</li>
+                        </ol>
+                    </li>
+                    
+                    <li>Dwarf Planets
+                        <ol>
+                            <li>Ceres</li>
+                            <li>Pluto</li>
+                            <li>Haumea</li>
+                            <li>Eris</li>
+                        </ol>
+                    </li>
+                    <li>Moons
+                        <ol>
+                            <li>Earth's Moon</li>
+                            <li>Titan</li>
+                            <li>Io</li>
+                            <li>Europa</li>
+                        </ol>
+                    </li>
+                </ol>
+
+                <div class="sample-gallery">
+                    <figure>
+                        <img src="img/mercury.jpg" alt="Mercury">
+                        <figcaption>Credit to NASA</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/jupiter.jpg" alt="Jupiter">
+                        <figcaption>Credit to NASA</figcaption>
+                    </figure>
+                </div>
+
+                <h3>Data Page</h3>
+                <p>
+                    This page will focus on additional information about the solar system that wasn’t shown on the Exploration Page. This will include some brief history, as long as the discovery and exploration of these. The telescopic images are great in this section.
+                </p>
+
+                <h3>Contact Us Page</h3>
+                <p>
+                    The last page will just be a static contact form. It will collect the name, email address, and a text message field, allowing the user to submit questions or feedback they may have about anything regarding the website. 
+                </p>
+            </section>
+
+            <section id="references">
+                <h2>References</h2>
+                <ul>
+                    <li><a href="https://science.nasa.gov/solar-system/" target="_blank" rel="noopener">NASA Solar System</a></li>
+                    <li><a href="https://airandspace.si.edu/explore/topics/astronomy/solar-system" target="_blank" rel="noopener">Smithsonian</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Kaiden Holman - 3054 Web Programming</p>
+        </footer>
+    </body>
+</html>
