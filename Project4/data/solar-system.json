@@ -1,0 +1,620 @@
+{
+  "categories": [
+    {
+      "id": "inner-planets",
+      "name": "Inner Planets",
+      "itemLabel": "Planet",
+      "summary": "Mercury, Venus, Earth, and Mars: the rocky planets closest to the Sun.",
+      "lead": "Mercury, Venus, Earth, and Mars are the four rocky planets closest to the Sun.",
+      "description": "Astronomers call them the terrestrial planets. Each has a solid surface and a metal core, and all four are much smaller and denser than the giant planets farther out. They have few or no moons and no rings, and they sit inside the asteroid belt, which separates them from the outer solar system.",
+      "worlds": [
+        {
+          "id": "mercury",
+          "name": "Mercury",
+          "summary": "The smallest planet and the closest to the Sun, with extreme swings between day and night temperatures.",
+          "lead": "Mercury is the smallest planet in the solar system and the one closest to the Sun. It is only slightly larger than Earth's Moon.",
+          "description": "Even though it is nearest the Sun, Mercury is not the hottest planet. It has almost no atmosphere to trap heat, so daytime surface temperatures reach about 430 °C while nights fall to about −180 °C.",
+          "image": {
+            "src": "img/mercury.jpg",
+            "alt": "Mercury, a gray planet covered in impact craters",
+            "caption": "Mercury, photographed by NASA's MESSENGER spacecraft.",
+            "credit": "NASA/JHUAPL/Carnegie Institution of Washington"
+          },
+          "sections": [
+            {
+              "heading": "Surface and Atmosphere",
+              "paragraphs": [
+                "Mercury's gray surface is covered in craters from billions of years of impacts, much like the Moon's. The Caloris Basin, a crater roughly 1,550 kilometers wide, is one of the largest in the solar system.",
+                "Mercury has no true atmosphere, only a thin exosphere of atoms knocked off its surface. Still, spacecraft have found evidence of water ice inside permanently shadowed craters near the poles, where sunlight never reaches."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "Mercury circles the Sun every 88 Earth days, faster than any other planet. It spins slowly, taking about 59 Earth days to turn once on its axis.",
+                "Together, those two motions make one solar day, from one sunrise to the next, last about 176 Earth days. That is twice as long as a Mercury year."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "NASA's Mariner 10 flew past Mercury three times in 1974 and 1975. NASA's MESSENGER became the first spacecraft to orbit the planet in 2011, mapped its entire surface, and ended its mission in 2015.",
+                "A joint European and Japanese mission, BepiColombo, is scheduled to enter orbit around Mercury in late November 2026."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "venus",
+          "name": "Venus",
+          "summary": "The hottest planet, covered by dense clouds of carbon dioxide and sulfuric acid.",
+          "lead": "Venus is the hottest planet in the solar system and Earth's closest neighbor in size. It is nearly as wide as Earth, but the two worlds could hardly be more different.",
+          "description": "A thick blanket of carbon dioxide traps heat so effectively that the surface stays around 465 °C, hot enough to melt lead. Clouds of sulfuric acid hide the ground from view.",
+          "image": {
+            "src": "img/venus.jpg",
+            "alt": "Venus, a bright planet wrapped in thick, pale yellow clouds",
+            "caption": "Venus, shrouded in clouds.",
+            "credit": "NASA/JPL-Caltech"
+          },
+          "sections": [
+            {
+              "heading": "Surface and Atmosphere",
+              "paragraphs": [
+                "Venus's atmosphere is mostly carbon dioxide, and the air pressure at the surface is about 90 times greater than on Earth. Standing there would feel like being deep under the ocean.",
+                "Beneath the clouds lie vast volcanic plains, thousands of volcanoes, and mountain ranges. Maxwell Montes, the tallest mountain, rises about 11 kilometers above the surrounding terrain."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "Venus rotates in the opposite direction from most planets, so on Venus the Sun rises in the west and sets in the east. It also spins so slowly that one rotation takes longer than its 225-day year.",
+                "A solar day, from one sunrise to the next, lasts about 117 Earth days."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "The Soviet Venera 7 probe landed on Venus in 1970 and became the first spacecraft to transmit data from the surface of another planet. The harsh heat and pressure destroyed Venus landers within about two hours.",
+                "NASA's Magellan spacecraft used radar to map nearly the entire surface between 1990 and 1994, and new missions are being planned for the 2030s."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "earth",
+          "name": "Earth",
+          "summary": "Our home and the only world known to support life, with liquid water across most of its surface.",
+          "lead": "Earth is the third planet from the Sun, the largest of the rocky planets, and the only world known to support life.",
+          "description": "About 71% of Earth's surface is covered by liquid water, which gives the planet its blue color when seen from space. Its atmosphere, a thin layer of mostly nitrogen and oxygen, shields life from harmful radiation.",
+          "image": {
+            "src": "img/earth.jpg",
+            "alt": "Earth, a blue planet with swirling white clouds and brown and green continents",
+            "caption": "Earth as seen from space.",
+            "credit": "NASA"
+          },
+          "sections": [
+            {
+              "heading": "Surface and Atmosphere",
+              "paragraphs": [
+                "Earth's atmosphere is about 78% nitrogen and 21% oxygen. Its magnetic field and ozone layer protect the surface from the Sun's charged particles and ultraviolet light.",
+                "The surface is constantly reshaped by moving tectonic plates, volcanoes, weather, and water. These forces keep the planet's crust far younger than the surfaces of Mercury or the Moon."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "Earth circles the Sun in about 365.25 days, which is why we add a leap day to the calendar every four years.",
+                "The planet's axis is tilted by about 23.4 degrees. That tilt, not the distance from the Sun, causes the changing seasons."
+              ]
+            },
+            {
+              "heading": "Observing Earth",
+              "paragraphs": [
+                "In December 1972, the Apollo 17 crew photographed the whole Earth in the image known as the Blue Marble. NASA's Landsat satellites have monitored the planet's land since 1972.",
+                "Astronauts have continuously lived aboard the International Space Station since November 2000, studying Earth from about 400 kilometers above the surface."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mars",
+          "name": "Mars",
+          "summary": "A cold desert world with the tallest volcano in the solar system, Olympus Mons.",
+          "lead": "Mars is a cold, dry desert world about half the size of Earth. Rust-colored iron dust gives it its red appearance.",
+          "description": "Mars has the tallest volcano and one of the longest canyons in the solar system. Its landscape also shows signs that rivers and lakes once flowed there billions of years ago.",
+          "image": {
+            "src": "img/mars.jpg",
+            "alt": "Mars, a rusty red planet with dark surface markings",
+            "caption": "Mars, the red planet.",
+            "credit": "NASA/JPL-Caltech"
+          },
+          "sections": [
+            {
+              "heading": "Surface and Atmosphere",
+              "paragraphs": [
+                "Olympus Mons, an ancient volcano roughly 22 kilometers tall, stands about two and a half times higher than Mount Everest. Valles Marineris, a canyon system, stretches more than 4,000 kilometers across the planet.",
+                "The atmosphere is mostly carbon dioxide and is less than 1% as dense as Earth's. Ice caps cover both poles, and water ice also lies beneath the surface."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "A Mars day is only about 40 minutes longer than an Earth day, but its year lasts 687 Earth days.",
+                "Mars is tilted about 25 degrees, close to Earth's tilt, so it has seasons too. Each season lasts roughly twice as long as one on Earth."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "Mars is the most explored planet beyond Earth. NASA's Sojourner rover landed in 1997, followed by Spirit and Opportunity in 2004, Curiosity in 2012, and Perseverance in 2021.",
+                "Perseverance has been exploring Jezero Crater, a dry lake bed, and collecting rock samples that scientists hope to study on Earth someday. Its small helicopter companion, Ingenuity, made the first powered flights on another planet."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outer-planets",
+      "name": "Outer Planets",
+      "itemLabel": "Planet",
+      "summary": "Jupiter, Saturn, Uranus, and Neptune: the gas giants farthest from the Sun.",
+      "lead": "Jupiter, Saturn, Uranus, and Neptune are the four giant planets of the outer solar system.",
+      "description": "They lie beyond the asteroid belt and are far larger than the rocky inner planets. Jupiter and Saturn are gas giants made mostly of hydrogen and helium. Uranus and Neptune are ice giants, built mostly from water, ammonia, and methane. None of them has a solid surface, all four have rings, and together they host hundreds of moons.",
+      "worlds": [
+        {
+          "id": "jupiter",
+          "name": "Jupiter",
+          "summary": "The largest planet, with a storm bigger than Earth and more than 100 moons.",
+          "lead": "Jupiter is the largest planet in the solar system, a gas giant more than twice as massive as all the other planets combined.",
+          "description": "It has no solid surface. Bands of hydrogen and helium clouds swirl around the planet, and a storm called the Great Red Spot is larger than Earth.",
+          "image": {
+            "src": "img/jupiter.jpg",
+            "alt": "Jupiter, a giant planet with tan and white cloud bands and a large red storm",
+            "caption": "Jupiter and its Great Red Spot.",
+            "credit": "NASA/JPL-Caltech"
+          },
+          "sections": [
+            {
+              "heading": "Atmosphere and Structure",
+              "paragraphs": [
+                "Jupiter is made mostly of hydrogen and helium, like the Sun. Deeper in, the pressure is so high that the gas behaves like a liquid, and scientists think a dense core may sit at the center.",
+                "Fast winds stretch the clouds into colorful bands. The Great Red Spot is a storm that astronomers have observed for at least 150 years, and it has been slowly shrinking."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "Jupiter takes almost 12 Earth years to orbit the Sun, yet it spins faster than any other planet, completing a rotation in under 10 hours.",
+                "That fast spin flattens the planet slightly and helps drive the strongest magnetic field of any planet."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "Pioneer 10 made the first flyby in 1973, and Voyagers 1 and 2 followed in 1979. NASA's Galileo orbited the planet from 1995 to 2003 and dropped a probe into its atmosphere.",
+                "NASA's Juno arrived in 2016 to study Jupiter's interior and magnetic field. Europa Clipper and ESA's JUICE are on their way and are expected to arrive in the early 2030s."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "saturn",
+          "name": "Saturn",
+          "summary": "The ringed planet, with bright icy rings and a moon, Titan, larger than Mercury.",
+          "lead": "Saturn is the second-largest planet and the most famous for its rings. Like Jupiter, it is a gas giant made mostly of hydrogen and helium.",
+          "description": "Saturn is so light for its size that it would float in a bathtub big enough to hold it. Its more than 280 known moons include Titan, which is larger than Mercury.",
+          "image": {
+            "src": "img/saturn.jpg",
+            "alt": "Saturn, a golden planet surrounded by wide, bright rings",
+            "caption": "Saturn and its rings.",
+            "credit": "NASA/JPL-Caltech/Space Science Institute"
+          },
+          "sections": [
+            {
+              "heading": "Rings and Moons",
+              "paragraphs": [
+                "Saturn's rings are made of countless pieces of ice and rock, from dust grains to boulders. They stretch about 280,000 kilometers across but are only about 10 meters thick in places.",
+                "Titan has a thick atmosphere and lakes of liquid methane. Enceladus shoots plumes of water vapor into space from an ocean hidden beneath its icy shell."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "Saturn takes about 29 Earth years to orbit the Sun, but a day there lasts only about 10.7 hours.",
+                "Its axis is tilted about 27 degrees, so Saturn has seasons, and the rings tilt toward or away from Earth as the planet moves along its orbit."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "Pioneer 11 reached Saturn in 1979, and Voyagers 1 and 2 followed in 1980 and 1981. NASA's Cassini spacecraft arrived in 2004 and studied the planet for 13 years.",
+                "Cassini's Huygens probe landed on Titan in 2005. NASA's Dragonfly rotorcraft is planned to explore Titan in the 2030s."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uranus",
+          "name": "Uranus",
+          "summary": "An ice giant that spins on its side, with a pale blue-green color from methane.",
+          "lead": "Uranus is an ice giant, the seventh planet from the Sun, and it rotates on its side.",
+          "description": "Methane in its atmosphere absorbs red light, which gives Uranus a pale blue-green color. William Herschel discovered it in 1781, making it the first planet found with a telescope.",
+          "image": {
+            "src": "img/uranus.jpg",
+            "alt": "Uranus, a smooth, pale blue-green planet",
+            "caption": "Uranus, photographed by Voyager 2.",
+            "credit": "NASA/JPL-Caltech"
+          },
+          "sections": [
+            {
+              "heading": "Atmosphere and Structure",
+              "paragraphs": [
+                "Uranus is made mostly of water, ammonia, and methane ices around a small rocky core, wrapped in an atmosphere of hydrogen and helium. It has the coldest planetary atmosphere in the solar system.",
+                "The planet has 13 known rings and 29 known moons, many named after characters from works by Shakespeare and Alexander Pope."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "Uranus's axis is tilted about 98 degrees, so it rolls around the Sun like a ball on its side. It also spins backward compared with most planets.",
+                "Because of that tilt, each pole gets about 42 years of continuous sunlight followed by 42 years of darkness. A full trip around the Sun takes 84 Earth years."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "Voyager 2 is the only spacecraft to visit Uranus, flying past in January 1986. It discovered ten new moons and two new rings.",
+                "Scientists have named a Uranus orbiter and probe a top priority for future NASA missions."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "neptune",
+          "name": "Neptune",
+          "summary": "The most distant planet, a deep blue ice giant with the fastest winds in the solar system.",
+          "lead": "Neptune is the most distant planet from the Sun, a deep blue ice giant about 30 times farther from the Sun than Earth.",
+          "description": "It was the first planet found by mathematical prediction. Astronomers in Berlin spotted it in 1846 after calculations showed where it should be.",
+          "image": {
+            "src": "img/neptune.jpg",
+            "alt": "Neptune, a deep blue planet with a few thin white clouds",
+            "caption": "Neptune, photographed by Voyager 2.",
+            "credit": "NASA/JPL"
+          },
+          "sections": [
+            {
+              "heading": "Atmosphere and Structure",
+              "paragraphs": [
+                "Like Uranus, Neptune is an ice giant made mostly of water, ammonia, and methane around a rocky core. Methane gives it a rich blue color.",
+                "Its winds are the fastest in the solar system, reaching more than 2,000 kilometers per hour. Voyager 2 saw a huge dark storm there in 1989 that had vanished by the time the Hubble Space Telescope looked in 1994."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "Neptune takes about 165 Earth years to circle the Sun. It completed its first full orbit since its discovery in 2011.",
+                "A day on Neptune lasts about 16 hours."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "Voyager 2 is the only spacecraft to visit Neptune, flying past in August 1989. It revealed rings, new moons, and geysers on Neptune's largest moon, Triton.",
+                "Triton orbits backward and is probably a captured object from the Kuiper Belt, the icy region beyond Neptune."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dwarf-planets",
+      "name": "Dwarf Planets",
+      "itemLabel": "Dwarf Planet",
+      "summary": "Pluto, Haumea, Ceres, and Eris: the small worlds that orbit the Sun but share their neighborhoods with other objects.",
+      "lead": "Pluto, Haumea, Ceres, and Eris are small, round worlds that orbit the Sun but share their neighborhoods with other objects.",
+      "description": "In 2006, the International Astronomical Union defined a dwarf planet as a round body that orbits the Sun, is not a moon, and has not cleared other objects from its orbit. Five worlds are officially recognized: these four and Makemake. Most live in the Kuiper Belt beyond Neptune, but Ceres orbits in the asteroid belt between Mars and Jupiter.",
+      "worlds": [
+        {
+          "id": "pluto",
+          "name": "Pluto",
+          "summary": "The most famous dwarf planet, with a heart-shaped region of nitrogen ice and five moons.",
+          "lead": "Pluto was counted as the ninth planet until 2006, when astronomers reclassified it as a dwarf planet. It is a small, icy world in the Kuiper Belt, a region of frozen bodies beyond Neptune.",
+          "description": "Clyde Tombaugh discovered Pluto in 1930. It is smaller than Earth's Moon, but NASA's New Horizons flyby in 2015 revealed a surprisingly active world.",
+          "image": {
+            "src": "img/pluto.jpg",
+            "alt": "Pluto, a small tan and cream world with a bright, heart-shaped region",
+            "caption": "Pluto, photographed by New Horizons.",
+            "credit": "NASA/Johns Hopkins APL/Southwest Research Institute"
+          },
+          "sections": [
+            {
+              "heading": "Surface and Atmosphere",
+              "paragraphs": [
+                "Pluto's surface is a mix of nitrogen, methane, and water ice. A bright, heart-shaped region called Tombaugh Regio includes Sputnik Planitia, a smooth plain of nitrogen ice with no visible craters, which means that surface is geologically young.",
+                "Pluto has a thin atmosphere of nitrogen and methane. It grows thicker when Pluto is closer to the Sun and freezes onto the surface as the planet moves away."
+              ]
+            },
+            {
+              "heading": "Orbit and Moons",
+              "paragraphs": [
+                "Pluto takes 248 Earth years to orbit the Sun, and its tilted, stretched orbit sometimes carries it inside Neptune's path. A day on Pluto lasts about 6.4 Earth days.",
+                "Its largest moon, Charon, is about half Pluto's width. The two circle a point in space between them, so some astronomers describe them as a double system. Pluto has five known moons in all."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "NASA's New Horizons spacecraft launched in 2006 and flew past Pluto on July 14, 2015, sending back the first close-up images of its surface.",
+                "New Horizons kept traveling and later flew past a small Kuiper Belt object named Arrokoth in 2019."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "haumea",
+          "name": "Haumea",
+          "summary": "A football-shaped world that spins once every four hours and has a ring and two moons.",
+          "lead": "Haumea is an oval-shaped dwarf planet in the Kuiper Belt, stretched into the shape of a football by its extremely fast spin.",
+          "description": "It rotates about once every four hours, one of the fastest spins of any large object in the solar system. Its two moons, Hi'iaka and Namaka, are named for daughters of the Hawaiian goddess Haumea.",
+          "image": {
+            "src": "img/haumea.jpg",
+            "alt": "Artist's concept of Haumea, an oval-shaped icy world with a faint ring and two small moons",
+            "caption": "NASA's 3D model of Haumea.",
+            "credit": "NASA Science"
+          },
+          "sections": [
+            {
+              "heading": "Shape and Surface",
+              "paragraphs": [
+                "Haumea is a rocky world covered by a bright coating of water ice, which makes it very reflective. Its fast rotation stretches it into a long, flattened oval.",
+                "In 2017, astronomers watching Haumea pass in front of a distant star discovered that it has a ring, the first ring system found around a Kuiper Belt object."
+              ]
+            },
+            {
+              "heading": "Orbit and Moons",
+              "paragraphs": [
+                "Haumea takes about 285 Earth years to orbit the Sun. Its day is only about four hours long.",
+                "Scientists think a giant collision billions of years ago may have set Haumea spinning and created its two moons, Hi'iaka and Namaka."
+              ]
+            },
+            {
+              "heading": "Observing Haumea",
+              "paragraphs": [
+                "No spacecraft has visited Haumea, so everything we know comes from telescope observations. The ring was found by timing the starlight Haumea blocked as it passed in front of the star.",
+                "The International Astronomical Union officially recognized Haumea as a dwarf planet in 2008."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ceres",
+          "name": "Ceres",
+          "summary": "The largest object in the asteroid belt, with mysterious bright spots made of salt.",
+          "lead": "Ceres is the only dwarf planet in the inner solar system and the largest object in the asteroid belt between Mars and Jupiter.",
+          "description": "Giuseppe Piazzi discovered Ceres in 1801, and it was first called a planet. It holds roughly a third of the asteroid belt's total mass.",
+          "image": {
+            "src": "img/ceres.jpg",
+            "alt": "Ceres, a gray, heavily cratered world with a cluster of bright spots",
+            "caption": "Ceres, photographed by the Dawn spacecraft.",
+            "credit": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA"
+          },
+          "sections": [
+            {
+              "heading": "Surface and Interior",
+              "paragraphs": [
+                "Ceres is a rocky world with a large amount of water ice beneath its dusty surface. Scientists think a layer of salty liquid may lie deep underground.",
+                "The bright spots inside Occator Crater are deposits of salts, left behind when briny water reached the surface and evaporated."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "Ceres orbits the Sun every 4.6 Earth years and spins once in about nine hours.",
+                "Because it lives in the asteroid belt, Ceres shares its orbit with countless smaller rocky bodies. That is why it counts as a dwarf planet and not a planet."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "NASA's Dawn spacecraft arrived at Ceres in March 2015, the first mission to visit a dwarf planet. Dawn had orbited the asteroid Vesta first, making it the first spacecraft to orbit two different bodies beyond Earth.",
+                "The mission ended in 2018 when Dawn ran out of fuel, but the spacecraft remains in orbit around Ceres."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eris",
+          "name": "Eris",
+          "summary": "The most massive dwarf planet, so far out that sunlight takes more than nine hours to reach it.",
+          "lead": "Eris is the most massive known dwarf planet, and its discovery in 2005 pushed astronomers to define what a planet is.",
+          "description": "Eris is about 27% more massive than Pluto, though Pluto is slightly wider. It orbits far beyond Neptune on a long, stretched path that takes about 560 Earth years to complete.",
+          "image": {
+            "src": "img/eris.jpg",
+            "alt": "Artist's concept of Eris, a pale, icy world with a small moon in the distance",
+            "caption": "An artist's concept of Eris and its moon, Dysnomia.",
+            "credit": "NASA"
+          },
+          "sections": [
+            {
+              "heading": "Surface and Moon",
+              "paragraphs": [
+                "Eris is a mix of rock and ice. Its surface is thought to be covered in frozen methane that reflects most of the sunlight reaching it, and temperatures stay near −240 °C.",
+                "Its only known moon, Dysnomia, is about 150 kilometers wide and circles Eris every 16 days. Eris is named for the Greek goddess of discord, and Dysnomia for her daughter."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "Eris's orbit carries it from about 38 times Earth's distance from the Sun to nearly 100 times. It is currently near the far end of that path.",
+                "Its orbit is also tilted about 44 degrees from the flat plane in which the planets orbit."
+              ]
+            },
+            {
+              "heading": "Discovery and Observation",
+              "paragraphs": [
+                "Mike Brown and his team found Eris in images taken at the Palomar Observatory in California. They nicknamed it Xena before it received its official name in 2006.",
+                "No spacecraft has visited Eris. It is about three times farther from the Sun than Pluto, so a mission would take a very long time."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moons",
+      "name": "Moons",
+      "itemLabel": "Moon",
+      "summary": "Io, Earth's Moon, Europa, and Titan: four of the most fascinating moons in our solar system.",
+      "lead": "Io, Earth's Moon, Europa, and Titan are four of the most fascinating of the more than 400 known moons in the solar system.",
+      "description": "A moon is a natural satellite that orbits a planet or a dwarf planet. Moons range from tiny captured rocks to worlds larger than Mercury. Some, like Io, are covered in volcanoes, while others, like Europa and Titan, may hide oceans beneath their surfaces.",
+      "worlds": [
+        {
+          "id": "io",
+          "name": "Io",
+          "summary": "The most volcanically active world in the solar system, with lava lakes and sulfur-colored plains.",
+          "lead": "Io is the most volcanically active world in the solar system, with more than 400 active volcanoes erupting across its surface.",
+          "description": "It is the innermost of Jupiter's four large moons and is slightly larger than Earth's Moon. Sulfur paints its surface in shades of yellow, orange, and red.",
+          "image": {
+            "src": "img/io.jpg",
+            "alt": "Io, a yellow, orange, and red moon dotted with dark volcanic spots",
+            "caption": "Io, a moon of Jupiter.",
+            "credit": "NASA/JPL/University of Arizona"
+          },
+          "sections": [
+            {
+              "heading": "Volcanoes and Surface",
+              "paragraphs": [
+                "Io's volcanoes blast plumes of sulfur dioxide as high as 500 kilometers above the surface, and lava lakes such as Loki Patera spread across the ground. The constant eruptions bury craters, so Io has almost none.",
+                "The moon has only a very thin atmosphere, made mostly of sulfur dioxide from its volcanoes."
+              ]
+            },
+            {
+              "heading": "Orbit and Heating",
+              "paragraphs": [
+                "Io circles Jupiter every 1.77 Earth days and always keeps the same face toward the planet.",
+                "Jupiter's powerful gravity, along with the pull of its neighbors Europa and Ganymede, squeezes and stretches Io's interior. That tidal heating melts rock and fuels the volcanoes."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "Voyager 1 discovered Io's volcanoes in 1979, the first active volcanoes ever seen beyond Earth. NASA's Galileo spacecraft flew past Io several times between 1995 and 2003.",
+                "NASA's Juno made two very close flybys in December 2023 and February 2024, passing within about 1,500 kilometers of the surface."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "moon",
+          "name": "Earth's Moon",
+          "summary": "Our nearest neighbor and the only world beyond Earth that humans have walked on.",
+          "lead": "The Moon is Earth's only natural satellite and the fifth-largest moon in the solar system. It is the only world beyond Earth that humans have visited.",
+          "description": "Most scientists think the Moon formed about 4.5 billion years ago, when a Mars-sized object struck the young Earth and the debris joined together to form the Moon.",
+          "image": {
+            "src": "img/moon.jpg",
+            "alt": "Earth's Moon, a gray world covered in craters with darker, smoother plains",
+            "caption": "Earth's Moon.",
+            "credit": "NASA/Goddard/Arizona State University"
+          },
+          "sections": [
+            {
+              "heading": "Surface",
+              "paragraphs": [
+                "The Moon's surface is covered in craters from billions of years of impacts. The dark patches, called maria, are plains of ancient lava, and the brighter regions are older highlands.",
+                "The Moon has no true atmosphere. Spacecraft have found water ice inside permanently shadowed craters near its poles."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "The Moon orbits Earth every 27.3 days and rotates at the same rate, so the same side always faces us. Its cycle of phases repeats every 29.5 days.",
+                "Its gravity pulls on Earth's oceans and causes the tides. The Moon is also drifting away from Earth by about 3.8 centimeters each year."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "The Soviet Luna 2 reached the Moon in 1959, and Luna 3 photographed its far side the same year. Apollo 11 landed the first humans on July 20, 1969, and twelve astronauts walked on the Moon before Apollo 17 left in 1972.",
+                "In April 2026, the four Artemis II astronauts flew around the Moon, the first crew to do so since Apollo 17. NASA currently plans a crewed landing on Artemis IV in 2028."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "europa",
+          "name": "Europa",
+          "summary": "An icy world that hides a global ocean of salty water beneath its cracked surface.",
+          "lead": "Europa is an icy moon of Jupiter that hides a global ocean of salty water beneath its frozen surface. Scientists consider it one of the most promising places to look for life beyond Earth.",
+          "description": "It is slightly smaller than Earth's Moon, with a bright, smooth surface crossed by long cracks and ridges.",
+          "image": {
+            "src": "img/europa.jpg",
+            "alt": "Europa, an icy moon with a cracked white surface crossed by reddish-brown lines",
+            "caption": "Europa, a moon of Jupiter.",
+            "credit": "NASA/JPL-Caltech/SETI Institute"
+          },
+          "sections": [
+            {
+              "heading": "Ice and Ocean",
+              "paragraphs": [
+                "Europa's ice shell is thought to be about 15 to 25 kilometers thick, with an ocean underneath that may hold more than twice as much water as all of Earth's oceans combined. That ocean probably touches a rocky seafloor.",
+                "Europa has one of the smoothest surfaces in the solar system, with few craters, which suggests it is young and constantly renewed. Hubble Space Telescope observations have hinted at plumes of water vapor erupting from the surface."
+              ]
+            },
+            {
+              "heading": "Orbit and Heating",
+              "paragraphs": [
+                "Europa orbits Jupiter every 3.55 Earth days and keeps one face toward the planet. Its orbit is slightly stretched, so Jupiter's gravity flexes the moon and warms its interior.",
+                "The surface stays far below freezing, around −160 °C, so any liquid water lies deep beneath the ice."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "NASA's Galileo spacecraft, which orbited Jupiter from 1995 to 2003, found magnetic signals that point to a salty ocean under the ice.",
+                "NASA's Europa Clipper launched in October 2024 and is expected to reach Jupiter in 2030. It will study Europa during dozens of close flybys."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "titan",
+          "name": "Titan",
+          "summary": "Saturn's giant moon, with a thick orange atmosphere and lakes of liquid methane.",
+          "lead": "Titan is Saturn's largest moon and the second-largest moon in the solar system, bigger than the planet Mercury. It is the only moon with a thick atmosphere.",
+          "description": "Its orange haze hides a surface with rivers, lakes, and seas, but they are filled with liquid methane and ethane instead of water.",
+          "image": {
+            "src": "img/titan.jpg",
+            "alt": "Titan, an orange moon wrapped in a thick, hazy atmosphere",
+            "caption": "Titan, a moon of Saturn.",
+            "credit": "NASA/JPL-Caltech/Space Science Institute"
+          },
+          "sections": [
+            {
+              "heading": "Atmosphere and Surface",
+              "paragraphs": [
+                "Titan's atmosphere is mostly nitrogen with a little methane, and the air pressure at the surface is about 1.5 times Earth's. Methane rain fills lakes and seas near the poles, including a large one named Kraken Mare.",
+                "Dunes of dark, sand-like grains stretch across the equator. Scientists think an ocean of liquid water lies beneath the icy crust."
+              ]
+            },
+            {
+              "heading": "Orbit and Rotation",
+              "paragraphs": [
+                "Titan orbits Saturn every 15.9 Earth days and always shows the same face to the planet.",
+                "At about −179 °C, Titan is cold enough that methane behaves the way water does on Earth, forming clouds, rain, and lakes."
+              ]
+            },
+            {
+              "heading": "Exploration",
+              "paragraphs": [
+                "Cassini flew past Titan more than 100 times between 2004 and 2017. Its Huygens probe landed on January 14, 2005, the first landing in the outer solar system.",
+                "NASA's Dragonfly, a drone-like rotorcraft, is currently planned to launch in 2028 and reach Titan in 2034."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
