@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Solar System Explorer - Project 3</title>
+        <title>Solar System Explorer</title>
         <meta name="author" content="Kaiden Holman">
         <meta name="description" content="This website is to learn more about the solar system. Explore the solar system under the Exploration page.">
         <meta name="keywords" content="solar system, space, planets">
@@ -18,18 +18,17 @@
             <nav aria-label="Main">
                 <ul>
                     <li><a href="index.html" aria-current="page">Home</a></li>
-                    <li><a href="inner-planets.html">Inner Planets</a></li>
-                    <li><a href="outer-planets.html">Outer Planets</a></li>
-                    <li><a href="dwarf-planets.html">Dwarf Planets</a></li>
-                    <li><a href="moons.html">Moons</a></li>
+                    <li><a href="exploration.html">Exploration</a></li>
+                    <li><a href="data.html">Data</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <main id="main-content">
+        <main id="main-content" class="home">
             <section class="hero" aria-labelledby="welcome-heading">
                 <h2 id="welcome-heading">Explore The Solar System</h2>
                 <figure>
-                    <img src="img/solar-system.jpg" alt="The sun and the eight planets lined up in order of distance from the sun." width="1200" height="600">
+                    <img src="img/solarsystem.jpg" alt="The sun and the eight planets lined up in order of distance from the sun." width="1200" height="600">
                     <figcaption>This is our solar system.</figcaption>
                 </figure>
             </section>
@@ -43,28 +42,6 @@
                     <input type="password" id="password" name="password" autocomplete="current-password">
                     <button type="submit">Log In</button>
                 </form>
-            </section>
-
-            <section class="categories" aria-labelledby="categories-heading">
-                <h2 id="categories-heading">Choose What You Want</h2>
-                <ul class="card-grid">
-                    <li class="card">
-                        <h3><a href="inner-planets.html">Inner Planets</a></h3>
-                        <p>Mercury, Venus, Earth, and Mars</p>
-                    </li>
-                    <li class="card">
-                        <h3><a href="outer-planets.html">Outer Planets</a></h3>
-                        <p>Jupiter, Saturn, Uranus, and Neptune</p>
-                    </li>
-                    <li class="card">
-                        <h3><a href="dwarf-planets.html">Dwarf Planets</a></h3>
-                        <p>Pluto, Haumea, Ceres, and Eris</p>
-                    </li>
-                    <li class="card">
-                        <h3><a href="moons.html">Moons</a></h3>
-                        <p>Io, Earth's Moon, Europa, and Titan</p>
-                    </li>
-                </ul>
             </section>
         </main>
         <footer>
