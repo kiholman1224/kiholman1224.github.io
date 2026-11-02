@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solar System Explorer - Project 3</title>
+    <meta name="author" content="Kaiden Holman">
+    <meta name="description"
+        content="This website is to learn more about the solar system. Explore the solar system under the Exploration page.">
+    <meta name="keywords" content="solar system, space, planets">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <h1>Solar System Explorer</h1>
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="exploration.html">Exploration</a></li>
+                <li><a href="data.html">Data</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content" class="home">
+        <section class="hero" aria-labelledby="welcome-heading">
+            <h2 id="welcome-heading">Explore The Solar System</h2>
+            <figure>
+                <img src="img/solarsystem.jpg"
+                    alt="The sun and the eight planets lined up in order of distance from the sun." width="1200"
+                    height="600">
+                <figcaption>This is our solar system.</figcaption>
+            </figure>
+        </section>
+
+        <section id="account-section" aria-labelledby="account-heading">
+            <h2 id="account-heading">Account</h2>
+            <p id="status" role="status" class="status-loading">Checking account status...</p>
+
+            <div id="signed-out-panel" hidden>
+                <p>Log in or create a free account to unlock the Exploration, Data, and Contact pages.</p>
+                <form id="login-form">
+                    <h3>Log In</h3>
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" autocomplete="email" required>
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" autocomplete="current-password" required>
+                    <button type="submit">Log In</button>
+                </form>
+                <form id="signup-form">
+                    <h3>Create an Account</h3>
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" autocomplete="email" required>
+                    <label for="signup-password">Password (at least 6 characters)</label>
+                    <input type="password" id="signup-password" autocomplete="new-password" minlength="6" required>
+                    <button type="submit">Create Account</button>
+                </form>
+            </div>
+
+            <div id="signed-in-panel" hidden>
+                <p id="welcome-message"></p>
+                <p><a href="exploration.html">Start exploring the solar system →</a></p>
+                <button type="button" id="home-logout-button">Log Out</button>
+                <form id="password-form">
+                    <h3>Change Password</h3>
+                    <label for="current-password">Current password</label>
+                    <input type="password" id="current-password" autocomplete="current-password" required>
+                    <label for="new-password">New password (at least 6 characters)</label>
+                    <input type="password" id="new-password" autocomplete="new-password" minlength="6" required>
+                    <button type="submit">Change Password</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Kaiden Holman <a href="contact.html">Contact</a></p>
+        <p>Image credit to NASA</p>
+    </footer>
+    <script type="module" src="js/auth.js"></script>
+</body>
+
+</html>
