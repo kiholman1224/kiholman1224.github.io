@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Solar System Explorer - Project 3</title>
+        <meta name="author" content="Kaiden Holman">
+        <meta name="description" content="This website is to learn more about the solar system. Explore the solar system under the Exploration page.">
+        <meta name="keywords" content="solar system, space, planets">
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <script type="module" src="js/exploration.js"></script>
+
+    <body>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+
+        <header>
+            <h1>Solar System Explorer</h1>
+            <nav aria-label="Main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="exploration.html" aria-current="page">Exploration</a></li>
+                    <li><a href="data.html">Data</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button type="button" id="logout-button" hidden>Log Out</button>
+        </header>
+        <p id="auth-check" role="status">Checking sign-in…</p>
+        <main id="main-content" hidden>
+            <p id="status" role="status">Loading...</p>
+
+            <section class="intro" aria-labelledby="page-heading">
+                <h2 id="page-heading">Exploration</h2>
+                <p class="lead">The solar system is a very interesting place full of unknowns. What we do know about our solar system is that it has eight planets, five dwarf planets, and hundreds of moons.</p>
+                <p>Choose a group, then choose a world to read more about it.</p>
+            </section>
+
+            <p id="status" role="status"></p>
+
+
+            <section id="category-view" aria-labelledby="category-heading">
+                <h2 id="category-heading">Choose a Category.</h2>
+                <ul id="category-list" class="card-grid"></ul>
+            </section>
+
+            <section id="world-view" aria-labelledby="world-heading" hidden>
+                <button type="button" id="back-to-categories">Back to Categories></button>
+                <h2 id="world-heading">Worlds</h2>
+            </section>
+
+            <section id="world-details" aria-labelledby="details-heading" hidden>
+                <button type="button" id="back-to-worlds">Back to Worlds</button>
+                <h2 id="details-heading">World Details</h2>
+                <div id="world-description"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Kaiden Holman <a href="contact.html">Contact</a></p>
+            <p>Image credit to NASA</p>
+        </footer>
+    </body>
+</html>
